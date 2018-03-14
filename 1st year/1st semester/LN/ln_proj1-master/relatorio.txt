@@ -1,0 +1,29 @@
+João Pestana 79515
+João Silvestre 80996
+Grupo 33
+
+Temo que o hipster Javanaldo tem os dias contados, a solução está descortinada. Com a seguinte descrição:
+
+No transdutor de algarismos árabes para romanos é primeiramente traduzido as casas decimais e de seguida as casas das unidades. Caso o número não tenha casas decimais transita para o estado que processa as unidades.
+O caso especial deste tradutor é o quando traduz o numero "100", que nao transita para o estado que precessa as unidades.
+
+De forma a processar frases e tambem e evitar repetições desnecessárias, foi concebido três pequenos transdutores:
+Um que processa as letras do alfabeto, um que processa simbolo "_" e outro que processa digitos, nao alterando qualquer elemento, em todos os casos.
+
+Para a concepção dos três trandutores, 1, 2 e 3, com o auxilio das ferramentas do fst, é no final concatenado o transdutor de "_" e realizado o fecho do trandutor, de forma a que consiga processar as frases.
+
+No transdutor 1 foi usado o transdutor de algarismos romanos ignorando as letras do alfabeto e os underscores, mantendo os inalterados.
+Usando as ferramentas do fst, foi feita a união do transdutor Romano com o transdutor que processa letras.
+
+No tradutor 2 é feito o primeiro codificador, pegando nos números romanos e codificando nos números indicados.
+Este trandutor é o produto da união do trandutor codificador(1) com o trandutor que processa letras, referido acima, mais a concetenação e fecho tambem referido acima.
+
+No tradutor 3 é feito a segunda codificação, foram processadas as letras nas respectivas alterações tendo atenção aos casos especiais, em causa está o "i" e o "mb".
+Nos dois casos especiais, foi dada a hipótese de em cada um deles progredir para dois casos possíveis. Nos dois casos temos um estado que se não for cumprido a condição de ser encontrado um "r" e um "b", transita para o estado inicial, alterando "i" para "L" e o "m" mantem se inalterado, respetivamente.
+Para garantir que não existe a letra "r" ou "b" a seguir as letras "i" e "m", respetivamente, é feita todas as transições possiveis para os estado inicial, excepto o "r" e "b", correspondentemente.
+Nos estados especiais é tido em conta se a a próxima letra tambem é um caso especial, isto é, depois de lido um "i" é verificado se vem um "m" a seguir e vice-versa.
+
+No tradutor codificador é aplicado os três tradutores anteriores, pela ordem 1, 2, 3 usando o comando "compose" do fst.
+Isto é, é feita a composição de o transdutor 1 e 2, sendo esta composição ser posteriormente composta com o transdutor 3.
+
+No tradutor descodificador é aplicado o comando "invert" do fst que inverte a tradução dos símbolos, é aplicado os três tradutores anteriores, pela ordem 1, 2, 3.
