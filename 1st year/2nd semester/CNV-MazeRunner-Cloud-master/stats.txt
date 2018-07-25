@@ -1,0 +1,209 @@
+vel=10
+Number of methods:    301626
+Number of basic blocks: 20739111965
+Number of instructions: 58986752680
+Average number of instructions per basic block: 2.8442275049938477
+Average number of instructions per method:      195562.5598588981
+Average number of basic blocks per method:      68757.70644772002
+
+Base:
+Number of methods:      301626
+Number of basic blocks: 7353947165
+Number of instructions: 27752058280
+Average number of instructions per basic block: 3.7737636207235385
+Average number of instructions per method:      92008.17661607421
+Average number of basic blocks per method:      24381.012130917097
+
+vel=100
+Number of methods:      301626
+Number of basic blocks: 5680801565
+Number of instructions: 23847721480
+Average number of instructions per basic block: 4.197950096853981
+Average number of instructions per method:      79063.87871072123
+Average number of basic blocks per method:      18833.92534131673
+
+Maze300:
+Dynamic information summary:
+Number of methods:      1770238
+Number of basic blocks: 38003456130
+Number of instructions: 143399498862
+Average number of instructions per basic block: 3.773327835538625
+Average number of instructions per method:      81005.77372195151
+Average number of basic blocks per method:      21467.99251287115
+
+Aumentar a velocidade: Avg nr instucs/basic block aumenta
+                       Avg nr instucs/metodo diminui
+                       Avg nr basic blocks/metodo diminui
+
+vel=100 c/ bfs
+Number of methods:      85689
+Number of basic blocks: 10271089827
+Number of instructions: 39972447302
+Average number of instructions per basic block: 3.8917435223789907
+Average number of instructions per method:      466482.8309584661
+Average number of basic blocks per method:      119864.74141371704
+
+vel=100 c/ dfs
+Number of methods:      32775
+Number of basic blocks: 1384371981
+Number of instructions: 4062541944
+Average number of instructions per basic block: 2.934573943822112
+Average number of instructions per method:      123952.46205949657
+Average number of basic blocks per method:      42238.65693363844
+
+Para x0=3 y0=9 x1=6 y1=3
+Number of methods:      27845
+Number of basic blocks: 252472018
+Number of instructions: 956545444
+Average number of instructions per basic block: 3.788718653169715
+Average number of instructions per method:      34352.50292691686
+Average number of basic blocks per method:      9067.05038606572
+
+Para x0=3 y0=9 x1=6 y1=3 c/ bfs
+Number of methods:      203156
+Number of basic blocks: 30557627543
+Number of instructions: 80517032958
+Average number of instructions per basic block: 2.634924221283156
+Average number of instructions per method:      396331.0606528973
+Average number of basic blocks per method:      150414.5953995944
+
+Para x0=3 y0=9 x1=6 y1=3 c/ dfs
+Number of methods:      181694
+Number of basic blocks: 30240120226
+Number of instructions: 79422397372
+Average number of instructions per basic block: 2.6263915876800588
+Average number of instructions per method:      437121.73969421117
+Average number of basic blocks per method:      166434.33589441588
+
+Ponto de partida e chegada mt perto, ao mudar a estrategia: dfs takes long af, e tem maior instrucs e blocks per method
+                                                            astar tem significativmente menores valores
+
+Para x0=3 y0=9 x1=46 y1=56
+Average number of instructions per basic block: 3.7738535547357666
+Average number of instructions per method:      95097.82795451023
+Average number of basic blocks per method:      25199.130431326095
+
+Para x0=3 y0=9 x1=70 y1=9
+Number of methods:      262447
+Number of basic blocks: 6778421620
+Number of instructions: 25580514203
+Average number of instructions per basic block: 3.7738157401604653
+Average number of instructions per method:      97469.25742340359
+Average number of basic blocks per method:      25827.773302800186
+
+Ao aumentar a distância: instructions per basic block matem-se
+                         instructions per method aumenta mt
+                         basic blocks per method aumenta mt
+
+Maze300:
+Dynamic information summary:
+Number of methods:      1770238
+Number of basic blocks: 38003456130
+Number of instructions: 143399498862
+Average number of instructions per basic block: 3.773327835538625
+Average number of instructions per method:      81005.77372195151
+Average number of basic blocks per method:      21467.99251287115
+
+
+
+
+ CLASS NAME      METHOD  PC      TAKEN   NOT_TAKEN
+ pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/datastructure/Coordinate getContent 213 2494 9416
+ pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/datastructure/Coordinate getContent 196 2450 10130
+ pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/datastructure/Coordinate getContent 155 3660 5716
+ pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/datastructure/Coordinate getContent 138 636 4322
+ pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/datastructure/Coordinate getContent 97 1244 3180
+ pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/datastructure/Coordinate getContent 80 534 4424
+ pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/datastructure/Coordinate <init> 397 3822 2974
+ pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/RobotController getContent 22 734 1746
+ pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/datastructure/Coordinate <init> 322 5050 0
+ pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/datastructure/Coordinate getY 224 108 2
+ pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/RobotController setPos 21 7428 2588
+ pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/RobotController setPos 13 61950 10016
+ pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/datastructure/Coordinate hashCode 108 61950 4966
+ pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/MazeRunningStrategy getContent 17 2 2486
+ pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/MazeRunningStrategy getContent 6 0 2
+ pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/datastructure/Coordinate getPosPhoto 21 2480 0
+ pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/datastructure/Coordinate getPosPhoto 13 0 2480
+ pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/datastructure/Coordinate getPosPhoto 5 0 2480
+ pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/datastructure/Coordinate getPosPhoto 1 0 2480
+ pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/MazeRunningStrategy getContent 39 4 0
+ pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/MazeRunningStrategy isWall 21 4 0
+ pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/MazeRunningStrategy isWall 13 0 4
+ pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/MazeRunningStrategy isWall 5 0 4
+ pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/MazeRunningStrategy isWall 1 0 4
+ pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/RobotController getContent 39 7306 2574
+ pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/RobotController isUnvisitedPassage 21 9880 0
+ pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/RobotController isUnvisitedPassage 13 0 9880
+ pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/RobotController isUnvisitedPassage 5 0 9880
+ pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/RobotController isUnvisitedPassage 1 40 9880
+ pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/datastructure/Coordinate getContent 39 4828 2478
+ pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/datastructure/Coordinate isVisitedPassage 21 7306 0
+ pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/datastructure/Coordinate isVisitedPassage 13 0 7306
+ pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/datastructure/Coordinate isVisitedPassage 5 0 7306
+ pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/Main CreateMazeRunningStrategy 78 40 7308
+ pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/datastructure/Coordinate getContent 118 2 204
+ pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/datastructure/Coordinate toString 47 2 200
+ pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/datastructure/Coordinate toString 64 200 20000
+ pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/datastructure/Coordinate toString 17 2 204
+ pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/Main main 180 2 0
+ pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/Main main 173 0 2
+ pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/Main main 4 2 0
+ pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/RobotController observe 10 2480 12400
+ pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/RobotController observe 21 12400 15500000
+ pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/RobotController observe 31 15500000 -326967296
+ pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/datastructure/Coordinate run 14 2478 495600
+ pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/datastructure/Coordinate run 25 495600 -2064767296
+
+
+ c/ dfs
+ CLASS NAME      METHOD  PC      TAKEN   NOT_TAKEN
+pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/datastructure/Coordinate getContent 213 2494 9416
+pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/datastructure/Coordinate getContent196 2450 10130
+pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/datastructure/Coordinate getContent 155 3660 5716
+pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/datastructure/Coordinate getContent 138 636 4322
+pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/datastructure/Coordinate getContent 97 1244 3180
+pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/datastructure/Coordinate getContent 80 534 4424
+pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/datastructure/Coordinate <init> 397 3822 2974
+pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/RobotController getContent 22 734 1746
+pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/datastructure/Coordinate <init> 322 5050 0
+pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/datastructure/Coordinate getY 224 108 2
+pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/RobotController setPos 21 7917 2588
+pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/RobotController setPos 13 61950 10505
+pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/datastructure/Coordinate hashCode 108 61950 5455
+pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/MazeRunningStrategy getContent 17 3 2975
+pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/MazeRunningStrategy getContent 6 804 3
+pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/MazeRunningStrategy getPos 13 0 804
+pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/MazeRunningStrategy getPos 5 0 804
+pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/MazeRunningStrategy getPos 1 0 804
+pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/datastructure/Coordinate getPosPhoto 21 2967 0
+pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/datastructure/Coordinate getPosPhoto 13 305 3149
+pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/datastructure/Coordinate getPosPhoto 5 223 3218
+pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/datastructure/Coordinate getPosPhoto 1 13 3441
+pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/MazeRunningStrategy getContent 39 1243 1185
+pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/MazeRunningStrategy isWall 21 1941 487
+pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/MazeRunningStrategy isWall 13 247 2181
+pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/MazeRunningStrategy isWall 5 0 2428
+pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/MazeRunningStrategy isWall 1 228 2200
+pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/RobotController getContent 39 7306 3061
+pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/RobotController isUnvisitedPassage 21 9880 1
+pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/RobotController isUnvisitedPassage 13 486 9881
+pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/RobotController isUnvisitedPassage 5 487 10197
+pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/RobotController isUnvisitedPassage 1 262 10684
+pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/datastructure/Coordinate getContent 39 5854 2478
+pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/datastructure/Coordinate isVisitedPassage 21 7306 1026
+pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/datastructure/Coordinate isVisitedPassage 13 0 8332
+pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/datastructure/Coordinate isVisitedPassage 5 0 8332
+pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/Main CreateMazeRunningStrategy 78 40 7308
+pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/datastructure/Coordinate getContent 118 3 306
+pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/datastructure/Coordinate toString 47 3 301
+pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/datastructure/Coordinate toString 64 300 30000
+pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/datastructure/Coordinate toString 17 3 306
+pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/Main main 180 3 0
+pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/Main main 173 0 3
+pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/Main main 4 3 0
+pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/RobotController observe 10 2967 12887
+pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/RobotController observe 21 12887 16108750
+pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/RobotController observe 31 16108750 -171127296
+pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/datastructure/Coordinate run 14 3270 654000
+pt/ulisboa/tecnico/meic/cnv/mazerunner/maze/strategies/datastructure/Coordinate run 25 654000 -1351967296
